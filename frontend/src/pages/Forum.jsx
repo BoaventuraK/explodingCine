@@ -1,5 +1,5 @@
 import { useState } from "react";
-import TextInput from "../componensts/TextInput";
+import TextInput from "../components/TextInput";
 
 function Forum(){
     const [searchTerm, setSearchTerm] = useState('')

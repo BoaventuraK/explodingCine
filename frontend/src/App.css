@@ -1,0 +1,50 @@
+/* ===== RESET BÁSICO ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== CONFIGURAÇÃO GLOBAL ===== */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #0B0B0D; /* preto principal */
+  color: #F5F5F5; /* branco suave */
+
+  /* altura mínima da tela */
+  min-height: 100vh;
+}
+
+/* remove estilo padrão de links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ===== ÁREA PRINCIPAL DO APP ===== */
+/* importante por causa da navbar fixa */
+main {
+  padding-top: 72px; /* mesma altura da navbar */
+}
+
+/* ===== SCROLLBAR CINEMATOGRÁFICA (opcional, mas bonito) ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0B0D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #FF6A00, #FF3B1F);
+  border-radius: 4px;
+}
+
+/* área principal centralizada */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;        /* centraliza horizontalmente */
+  padding: 24px;         /* respiro lateral */
+}
+

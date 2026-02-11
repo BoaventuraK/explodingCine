@@ -1,27 +1,27 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import './App.css'
 
-import Navbar from "./componensts/Navbar"
+import Navbar from "./components/Navbar"
 import Movies from "./pages/Movies"
 import Forum from "./pages/Forum"
-import Footer from "./componensts/Footer"
+import Footer from "./components/Footer"
 
 function App() {
   return (
-    <>
-        <BrowserRouter>
-          <Navbar/>
+    <BrowserRouter>
+      <Navbar />
 
-          <main>
-            <Routes>
-              <Route path="/" element={<Movies/>} />
-              <Route path="/forum" element={<Forum/>} />
-            </Routes>
-          </main>
+      <main>
+        <div className="container">
+          <Routes>
+            <Route path="/" element={<Movies />} />
+            <Route path="/forum" element={<Forum />} />
+          </Routes>
+        </div>
+      </main>
 
-
-          <Footer/>
-        </BrowserRouter>
-    </>
+      <Footer />
+    </BrowserRouter>
   )
 }
 
