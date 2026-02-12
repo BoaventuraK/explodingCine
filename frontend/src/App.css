@@ -24,7 +24,7 @@ a {
 /* ===== ÁREA PRINCIPAL DO APP ===== */
 /* importante por causa da navbar fixa */
 main {
-  padding-top: 72px; /* mesma altura da navbar */
+  padding-top: 20px; /* mesma altura da navbar */
 }
 
 /* ===== SCROLLBAR CINEMATOGRÁFICA (opcional, mas bonito) ===== */
